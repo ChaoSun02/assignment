@@ -3,7 +3,7 @@ import PostData from '../rDBinfo.json';
 
 function IdDB (props){
     return(
-        <div>
+        <div> {/*Pulls the ids from the JSON*/}
             {PostData.map((postDetail, index)=>{
                 if(postDetail.id===props.VarId){
                     return <div>{postDetail.id}</div>

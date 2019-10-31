@@ -6,9 +6,9 @@ import './List.css';
 
 function List(){
     return (
-        <ul>
+        <ul> {/*This ul shows the contents of the JSON file */}
             <li>
-                <div className="flex-container">
+                <div className="flex-container"> {/*Each of IdDB, NameDB, SurnameDB shows the contents tha correspont to the id that matches VarId */}
                     <p><IdDB VarId={1}/></p>
                     <p><NameDB VarId={1}/></p>
                     <p><SurnameDB VarId={1}/></p>

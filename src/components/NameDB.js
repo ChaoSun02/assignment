@@ -3,7 +3,7 @@ import PostData from '../rDBinfo.json';
 
 function NameDB (props){
     return(
-        <div>
+        <div> {/*Pulls the names from the JSON*/}
             {PostData.map((postDetail, index)=>{
                 if(postDetail.id===props.VarId){
                     return <div>{postDetail.Name}</div>
