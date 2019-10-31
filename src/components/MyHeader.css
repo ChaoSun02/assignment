@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container > div{
+    margin: 5px 10px;
+}
+
+body{
+    color: #1de9b6;
+}
+a:visited, a:link{
+    color: #1de9b6;
+}
+
+a{
+    position: relative;
+    top: 15%;
+    text-align: center;
+}

@@ -1,9 +1,8 @@
-ul{
+ul#List1{
     list-style-position: outside;
-    list-style-type: circle;
+    list-style-type: none;
     margin-left: 5%;
 }
-
 li > div.flex-container{
     display: flex;
     border: solid #26a69a 1px;
@@ -11,7 +10,6 @@ li > div.flex-container{
     margin-bottom: 10px;
     background-color: #26a69a;
 }
-
 .flex-container > p{
     width: 100px;
     border: solid #26a69a 1px;
