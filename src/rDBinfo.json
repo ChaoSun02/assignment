@@ -1,10 +1,22 @@
 [
     {
         "id": 1,
-        "text1" : "Lorem"
+        "Name" : "Alex",
+        "Surname": "Smith"
     },
     {
         "id": 2,
-        "text1" : "ipsum"
+        "Name" : "John",
+        "Surname": "Doe"
+    },
+    {
+        "id": 3,
+        "Name" : "Nickolas",
+        "Surname": "Martin"
+    },
+    {
+        "id": 4,
+        "Name" : "George",
+        "Surname": "Young"
     }
 ]
